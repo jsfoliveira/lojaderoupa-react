@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+.navbar {
+    background-color: rgb(173, 99, 241);
+    .dropdown-toggle.nav-link {
+        color:#fff;
+    }
+
+    .dropdown-toggle.nav-link:hover {
+        color:#000;
+        }
+}
+
+#navbarScroll {
+    padding-left: 1rem;
+}
+
+.d-flex {
+    padding-left: 1rem;
+    padding-right: 4rem;
+
+    .mr-2{
+        width: 12rem;
+    }
+}
+
+
+.navbar-dark{
+    .navbar-brand{
+    font-size: 2.2rem;
+    font-family: 'Style Script', cursive;
+    }
+
+}
