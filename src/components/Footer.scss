@@ -2,9 +2,41 @@
     background-color: rgb(136, 133, 133);
     border-bottom:0.2rem solid #000;
     padding-top: 1.8rem;
-    padding-left: 2.8rem;
+    padding-left: 3rem;
+    
 }
 
-.first-col {
-    align-items: center;
+.end-footer {
+    text-align: center;
+    font-size:0.9rem;
+    
+}
+.container-footer.container{
+    border-bottom:0.1rem solid #000;
+    padding-bottom: 1rem;
+    
+}
+
+.first-col h6 {
+    padding-top: 1.2rem;
+}
+
+.second-col {
+    padding-top: 1rem;
+}
+
+.second-col h5 {
+    font-weight: bold;
+    padding-left:1rem;
+}
+
+.second-col li {
+display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 50%;
+}
+ 
+.second-col a {
+    color: #000;
+    margin-left: 1rem;
 }

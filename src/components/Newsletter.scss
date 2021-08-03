@@ -1,15 +1,23 @@
 .newsletter {
     align-items: center;
     background-color: rgb(136, 133, 133);
+    padding-bottom: 1rem;
+    border-bottom:0.2rem solid #000;
+    border-bottom-width: thick;
+}
+
+.newsletter-col.col {
+    padding-top: 1.6rem;
 }
 
 .newsletter {
     .form-text {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
     text-transform: uppercase;
     color: #fff;
-    padding-left: 2rem;
     padding-left: 2.8rem;
+    margin-top: 2rem;
     }
 }
 
@@ -20,8 +28,9 @@
     }
 }
 
-.newsletter{
-    .newsletter-button {
-        padding-left: 2rem; 
-    }
+.newsletter-button.col {
+    padding-top: 1.6rem;
+    padding-left: 3rem; 
 }
+
+

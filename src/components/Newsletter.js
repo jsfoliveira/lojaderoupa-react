@@ -5,7 +5,7 @@ import "./Newsletter.scss";
 const Newsletter = () => (
   <Form>
     <Row className="newsletter">
-      <Col sm={3}>
+      <Col className="newsletter-col">
         <Form.Text xs="auto" className="newsletter-text">
           Assine nossa newsletter
         </Form.Text>
@@ -18,7 +18,7 @@ const Newsletter = () => (
         <Form.Label htmlFor="inlineFormInputName" visuallyHidden></Form.Label>
         <Form.Control id="inlineFormInputName" placeholder="E-mail" />
       </Col>
-      <Col xs="auto" className="newsletter-button">
+      <Col className="newsletter-button">
         <Button type="submit">Assinar</Button>
       </Col>
     </Row>
