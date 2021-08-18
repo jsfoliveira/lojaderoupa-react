@@ -1,20 +1,39 @@
 .background-footer {
     background-color: rgb(136, 133, 133);
-    border-bottom:0.2rem solid #000;
     padding-top: 1.8rem;
-    padding-left: 3rem;
-    
+    border-bottom:0.2rem solid #000;
+}
+
+.container-footer {
+    text-align: center;
 }
 
 .end-footer {
-    text-align: center;
     font-size:0.9rem;
-    
 }
-.container-footer.container{
-    border-bottom:0.1rem solid #000;
-    padding-bottom: 1rem;
-    
+
+.icons-footer {
+    padding-left: 0;
+}
+
+.line {
+    width: 72rem;
+    border-top: 2px solid;
+    margin-top: 8px;
+    border-color: #000;
+}
+
+.links-footer {
+    color: #000;
+    text-decoration: none;
+}
+
+.container-text {
+    text-align: justify;
+}
+
+.links-footer:hover {
+    color: rgba(65, 62, 62, 0.753);
 }
 
 .first-col h6 {
@@ -27,16 +46,28 @@
 
 .second-col h5 {
     font-weight: bold;
-    padding-left:1rem;
 }
 
 .second-col li {
-display: grid;
+    display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2px;
   width: 50%;
 }
  
 .second-col a {
     color: #000;
     margin-left: 1rem;
+}
+
+.second-col col-lg-6 col-12 {
+    padding-left: 0;
+}
+
+.icons:hover {
+    color: rgba(65, 62, 62, 0.753);
+}
+
+.icons-pay {
+    text-align: center;
 }
