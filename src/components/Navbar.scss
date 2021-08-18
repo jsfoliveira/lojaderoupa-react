@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 .navbar {
     background-color: rgb(173, 99, 241);
-    .dropdown-toggle.nav-link {
-        color:#fff;
-    }
+}
 
-    .dropdown-toggle.nav-link:hover {
-        color:#000;
-        }
+.links-navbar {
+    color:#fff;
+    text-decoration: none;
+}
+
+.links-navbar:hover {
+    color: #000;
+    opacity:0.4;
 }
 
 #navbarScroll {
@@ -28,5 +31,32 @@
     font-size: 2.2rem;
     font-family: 'Style Script', cursive;
     }
+}
 
+.logo {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+.logo:hover {
+    color: #000;
+    opacity:0.4;
+}
+
+#basic-nav-dropdown {
+    color: #fff; 
+    text-decoration: none;
+}
+
+#basic-nav-dropdown:hover {
+    color:#000;
+}
+
+.btn.btn-outline-light:hover {
+    background-color: rgb(58, 56, 56);
+}
+
+.links-minhaconta {
+    color: #000; 
+    text-decoration: none;
 }

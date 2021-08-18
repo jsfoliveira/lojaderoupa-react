@@ -1,6 +1,5 @@
 .card-group {
-    padding: 1rem 1rem;
-    
+    padding: 1rem 1rem; 
 }
 
 .card-img-top {
@@ -9,4 +8,16 @@
 
 .card-body {
     padding-bottom: 0;
+}
+
+.btn.btn-primary {
+    background-color: rgb(173, 99, 241);
+    border-color: rgb(173, 99, 241);
+}
+
+.btn.btn-primary:hover{
+    background-color: white;
+    color: #000;
+    border-color: #000;
+ 
 }
