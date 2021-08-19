@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../pages/Acessorios/Acessorios";
+import "../pages/Promocao/Promocao";
 import {
   Navbar,
   Nav,
@@ -16,8 +16,8 @@ import { Link } from "react-router-dom";
 
 const Navigation = () => (
   //depois de importar todas as páginas no app.js, você usa o <Link to> para redirecionar para as paginas
-  <div>
-    <Navbar variant="dark" expand="lg">
+  <div className="nav">
+    <Navbar variant="dark" expand="lg" className="w-100">
       <Container>
         <Navbar.Brand>
           <Link to="/" className="logo">
@@ -38,8 +38,8 @@ const Navigation = () => (
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/Acessorios" className="links-navbar">
-                Acessórios
+              <Link to="/Promocao" className="links-navbar">
+                Promoção
               </Link>
             </Nav.Link>
             <Nav.Link>

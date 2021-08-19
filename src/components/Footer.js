@@ -27,8 +27,8 @@ const Footer = () => (
               </Link>
             </h6>
             <h6>
-              <Link to="/Central-de-atendimento" className="links-footer">
-                Central de atendimento
+              <Link to="/Politica-de-uso" className="links-footer">
+                Política de uso
               </Link>
             </h6>
             <h6>
