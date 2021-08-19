@@ -1,6 +1,6 @@
 import React from "react";
 
-import Acessorios from "./pages/Acessorios/Acessorios";
+import Promocao from "./pages/Promocao/Promocao";
 import Home from "./pages/Home";
 import Marcas from "./pages/Marcas/Marcas";
 import Colecao from "./pages/Colecao/Colecao";
@@ -13,7 +13,7 @@ import meuPerfil from "./pages/Minhaconta/meuPerfil";
 import Comprar from "./pages/Btn-comprar/Comprar";
 
 import sobreMarca from "./pages/Footer/sobreMarca";
-import centralAtendimento from "./pages/Footer/centralDeAtendimento";
+import politicaDeUso from "./pages/Footer/politicaDeUso";
 import trocarDevolver from "./pages/Footer/devolverTrocar";
 import politicaPrivacidade from "./pages/Footer/privacidade";
 import Contato from "./pages/Footer/Contato";
@@ -36,7 +36,7 @@ const App = () => (
   <div class="App">
     <BrowserRouter>
       <Route path="/" exact component={Home} />
-      <Route path="/Acessorios" component={Acessorios} />
+      <Route path="/Promocao" component={Promocao} />
       <Route path="/Marcas" component={Marcas} />
       <Route path="/Colecao" component={Colecao} />
 
@@ -48,7 +48,7 @@ const App = () => (
       <Route path="/Comprar" component={Comprar} />
 
       <Route path="/Sobre-marca" component={sobreMarca} />
-      <Route path="/Central-de-atendimento" component={centralAtendimento} />
+      <Route path="/Politica-de-uso" component={politicaDeUso} />
       <Route path="/Trocar-devolver" component={trocarDevolver} />
       <Route path="/Politica-de-privacidade" component={politicaPrivacidade} />
       <Route path="/Contato" component={Contato} />

@@ -1,14 +1,16 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import PoliticaDeUso from "../../components/PoliticaDeUso";
 
-function centralAtendimento() {
+function politicaDeUso() {
   return (
     <div>
       <Navbar />
+      <PoliticaDeUso />
       <Footer />
     </div>
   );
 }
 
-export default centralAtendimento;
+export default politicaDeUso;
