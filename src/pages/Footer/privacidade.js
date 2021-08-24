@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import Privacy from "../../components/Privacy";
+import Privacidade from "../../components/Privacidade";
 
 function privacidade() {
   return (
     <div>
       <Navbar />
-      <Privacy />
+      <Privacidade />
       <Footer />
     </div>
   );

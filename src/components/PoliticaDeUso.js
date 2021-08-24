@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
 
 import "./PoliticaDeUso.scss";
 
@@ -7,7 +7,9 @@ const PoliticaDeUso = () => {
   return (
     <Col className="termo-uso">
       <Row>
-        <h2>Termos de Uso</h2>
+        <Container className="tittle">
+          <h1 className="text-container">Termos de Uso</h1>
+        </Container>
         <p>
           A Minha Lojinha se esforça para manter as informações e conteúdo deste
           site corretos e atualizados. No entanto, incorreções ou omissões

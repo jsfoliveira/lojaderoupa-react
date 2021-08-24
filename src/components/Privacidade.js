@@ -1,13 +1,15 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
 
-import "./Privacy.scss";
+import "./Privacidade.scss";
 
-const Privacy = () => {
+const Privacidade = () => {
   return (
     <Col className="privacy">
       <Row>
-        <h3>Política e Segurança</h3>
+        <Container className="tittle">
+          <h1 className="text-container">Política e seguraça</h1>
+        </Container>
         <p>
           A Minha Lojinha respeita o sigilo e a segurança de suas informações.
         </p>
@@ -123,4 +125,4 @@ const Privacy = () => {
   );
 };
 
-export default Privacy;
+export default Privacidade;
