@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row, Image } from "react-bootstrap";
 import "./SobreMarca.scss";
+import teste from "../assets/sobremarca.jpeg";
 
 const SobreMarca = () => {
   return (
@@ -27,7 +28,7 @@ const SobreMarca = () => {
       <Row>
         <h4 className="fundadoras">Fundadoras</h4>
         <Col xs={12} md={6}>
-          <Image src="../assets/sobremarca/171x180" rounded />
+          <Image src={teste} className="image-sobremarca" />
         </Col>
         <Col xs={12} md={6}>
           <p>

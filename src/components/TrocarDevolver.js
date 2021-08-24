@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
 
 import "./TrocarDevolver.scss";
 
@@ -7,7 +7,9 @@ const TrocarDevolver = () => {
   return (
     <Col className="trocar-devolver">
       <Row>
-        <h2>Trocas e Devoluções</h2>
+        <Container className="tittle">
+          <h1 className="text-container">Trocas e Devoluções</h1>
+        </Container>
         <p>
           Desejamos que a sua experiência em nosso site seja incrível e que você
           fique completamente satisfeito com suas compras!

@@ -95,3 +95,12 @@ export default Navigation;
 
 //varint=dark (deixa a cor da fonte branco)
 //<Button variant="outline-light"></Button> (deixa o botão com a linha branca)
+
+/* se quiser colocar novamente o icone
+import { IconButton } from "@material-ui/core";
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart"; //todo icone deve ser importado no final
+<IconButton aria-label="cart">
+<div badgeContent={4} color="secondary">
+<ShoppingCartIcon />
+</div>
+</IconButton>*/
