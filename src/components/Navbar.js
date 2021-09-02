@@ -67,11 +67,6 @@ const Navigation = () => (
                   </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link to="/Meu-perfil" className="links-minhaconta">
-                    Meu perfil
-                  </Link>
-                </NavDropdown.Item>
-                <NavDropdown.Item>
                   <Link to="/Minhas-compras" className="links-minhaconta">
                     Minhas compras
                   </Link>

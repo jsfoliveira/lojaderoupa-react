@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+.main {
+    margin-top: 100px;
+}
+
+.color {
+    background-color: rgb(196, 175, 216);
+    height: 50px;
+}
+
 .main-text {
     height: 150px;
-    margin-top: 100px;
-    background-color:#707b86;
+    background-color:#8c9aa8;
 }
 
 .main-text h1 {
@@ -12,4 +20,5 @@
     text-align: center;
     padding-top: 60px;
     color: white;
+   
 }

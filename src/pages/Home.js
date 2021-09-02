@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-
+import BodyMain from "../components/BodyMain";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 
@@ -10,7 +10,7 @@ function Main() {
     <>
       <Navbar />
       <Hero />
-
+      <BodyMain />
       <Newsletter />
       <Footer />
     </>
