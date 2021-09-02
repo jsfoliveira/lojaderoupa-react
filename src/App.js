@@ -8,7 +8,6 @@ import Colecao from "./pages/Colecao/Colecao";
 import Acessar from "./pages/Minhaconta/Acessar";
 import criarConta from "./pages/Minhaconta/criarConta";
 import minhasCompras from "./pages/Minhaconta/minhasCompras";
-import meuPerfil from "./pages/Minhaconta/meuPerfil";
 
 import Comprar from "./pages/Btn-comprar/Comprar";
 
@@ -43,7 +42,6 @@ const App = () => (
       <Route path="/Acessar" component={Acessar} />
       <Route path="/Criar-conta" component={criarConta} />
       <Route path="/Minhas-compras" component={minhasCompras} />
-      <Route path="/Meu-perfil" component={meuPerfil} />
 
       <Route path="/Comprar" component={Comprar} />
 

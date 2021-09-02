@@ -1,13 +1,6 @@
 //diminuir o tamanho das caixas no celular
 import React from "react";
-import {
-  Form,
-  Button,
-  FormGroup,
-  Container,
-  Dropdown,
-  DropdownButton,
-} from "react-bootstrap";
+import { Form, Button, FormGroup, Container } from "react-bootstrap";
 
 import "./Contact.scss";
 
